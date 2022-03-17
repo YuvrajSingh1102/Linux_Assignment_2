@@ -13,7 +13,7 @@ int main()
 	printf("In the current process, pid is: %d\n",getpid());
 
 	printf("Replacing existing program\n");
-    printf("Hierarchial tree format:\n");
+   	printf("Hierarchial tree format:\n");
 	execl("/usr/bin/pstree", "pstree", 0);
 
 	printf("Exiting main program\n");
