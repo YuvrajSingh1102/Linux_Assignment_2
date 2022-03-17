@@ -3,7 +3,6 @@ Q5_A.Write a program parent process wait untill ,while child process open a file
 data into empty buffer.
 */
 
-
 #include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>
