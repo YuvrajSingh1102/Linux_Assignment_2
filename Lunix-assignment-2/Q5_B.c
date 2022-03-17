@@ -9,15 +9,20 @@ their function calls from main().
 #include <fcntl.h>
 #include <unistd.h>
 
-void callback1(){
+void callback1()
+{
     printf("callback1\n"); 
 }
 
-void callback2(){
+void callback2()
+{
     printf("callback2\n"); 
 }
 
-void callback3(){printf("callback3\n"); }
+void callback3()
+{
+	printf("callback3\n"); 
+}
 
 int main(){
 	
